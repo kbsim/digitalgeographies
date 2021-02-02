@@ -1,0 +1,682 @@
+
+ 
+<html>
+<head>
+<script language="javascript" src="/media/scripts/UPNav.js"></script>
+<script language="javascript" src="/media/scripts/UPWebTemp.js"></script>
+<script language="javascript" src="/media/scripts/master.js"></script>
+<link rel="stylesheet" href="/media/scripts/master.css" type="text/css">
+<title>Welcome to Union Planters</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" background="/media/images/doc_bk.gif" onLoad="window.status= 'Welcome to Union Planters';return true;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+<tr> 
+<td align="left" valign="top">
+	<!--:::Top Table Starts::://-->
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+	<td width="68%" bgcolor="#007850" align="left" valign="top">
+	<script language="javascript">
+	<!--
+	document.write(showFlash());
+	//-->
+	</script></td>
+	<script language="javascript">
+	<!--//
+	if (screen.width) { 
+	var SWidth = screen.width;
+	if (SWidth > 800) {
+	document.write("<td background='/media/images/currentPromos/swfx107_bk.gif' width='32%' align='left' valign='top'>");
+	} else {
+	document.write("<td background='/media/images/currentPromos/swfx86_bk.gif' width='32%' align='left' valign='top'>");
+	}
+	}
+	//-->
+	</script>
+		<!--:::Account LogOn Starts::://-->
+		<form name="leftFrm" action="">
+		
+		<table width="92%" border="0" cellspacing="0" cellpadding="0" background="">
+		
+		<tr>
+	  <td colspan="2"><img src="/media/images/spacer.gif" width="3" height="3" border="0"></td>
+		</tr>
+		
+		<tr> 
+ 		<td width="1%"><img src="/media/images/spacer.gif" width="3" height="10" border="0"></td>
+		<td width="99%" align="right" valign="top" class="selectField">
+      <select name="appSlctr" onChange="appScrpt()">
+      <option value="">Apply now</option>
+      <option value="https://www.unionplanters.com/apply">&nbsp;&nbsp;checking</option>
+      <option value="http://www.webapply.com/unionplanters-vycj/">&nbsp;&nbsp;credit cards</option>
+      <option value="https://www.loanupdate.com/unionplanters">&nbsp;&nbsp;mortgage</option>
+      <option value="https://www.unionplanters.com/apply">&nbsp;&nbsp;savings</option>
+      </select></td>
+		</tr>
+		
+		<tr>
+		<td colspan="2"><img src="/media/images/spacer.gif" width="5" height="3" border="0"></td>
+		</tr>
+		
+		<tr> 
+ 		<td width="1%"><img src="/media/images/spacer.gif" width="3" height="10" border="0"></td>
+		<td width="99%" align="right" valign="top" class="selectField">		
+      <select name="indxSlct" onChange="ChangeTxt()" style="width:90%">
+      <option value="">Log in to Online Services</option>
+      <option value="upib">&nbsp;&nbsp;Internet Banking</option>
+      <option value="upbiz">&nbsp;&nbsp;Internet Banking for Business</option>
+      <option value="updt">&nbsp;&nbsp;UPDATE</option>
+      <option value="upiv">&nbsp;&nbsp;UPInvesting</option>
+      <option value="upmt">&nbsp;&nbsp;UPMortgage</option>
+      <option value="upEmp">&nbsp;&nbsp;UPPayCard - Employer</option>
+      <option value="upEmpe">&nbsp;&nbsp;UPPayCard - Employee</option>
+      <option value="uptr">&nbsp;&nbsp;UPTrust Online</option>
+      </select></td>
+    </tr>
+    
+    <tr>
+		<td colspan="2"><img src="/media/images/spacer.gif" width="5" height="7" border="0"></td>
+		</tr>
+    
+    <tr>
+		<td colspan="2" valign="top"><div id="accSlctd" align="center"><img src="/media/images/spacer.gif" width="4" height="4" border="0"></div></td>
+    </tr>
+    
+    </table>
+		
+		</form>
+		<!--:::Account LogOn Ends::://-->
+	</td>
+	</tr>
+	</table>
+	<!--:::Top Table Ends::://-->
+</td>
+</tr>
+<tr>
+<td align="left" valign="top"> 
+	<!--:::Holding Table Starts::://-->
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+	
+	<!--:::Personal Banking::://-->
+  <td valign="top" width="17%" onMouseOver="styleOver('pb','pb','sc1')" onMouseOut="styleOut('pb','pb','sc1')">
+	<ilayer name="pbanchor" width="100%">
+	<layer name="pbHldr" width="100%" top="0" left="0" onMouseOver="changeit('pbanchor','pbHldr','anchor1','anchor2','personalbanking','Personal&nbsp;Banking');" onMouseOut="changeitBk('pbanchor','pbHldr','anchor1','anchor2','personalbanking','Personal&nbsp;Banking');">
+		
+		<!--:::Personal Banking Table Start::://-->
+		<table width="100%" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+		<td width="100%" bgColor="#6281A1" colspan="2"><img src="/media/images/spacer.gif" width="1" height="1"></td>
+		</tr>
+		<tr>
+		<td width="100%" valign="top">
+		
+		<div id="pb" class="indxHrdinitBK">
+		<ilayer id="anchor1" width="100%" bgColor="#FFFFFF">
+		<layer id="anchor2" width="100%">
+		<!--::Personal Banking Header:://-->
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+			<td><img src="/media/images/sec_tri.gif" width="10" height="18" name="pb_tri" border="0"></td>
+			<td width="2%"><img src="/media/images/spacer.gif" width="5" height="2" border="0"></td>
+			<td width="98%" height="20" class="topMenu"><a href="javascript:SiteIndx('personalbanking','personalbanking','/index.upb','')"><b>Personal&nbsp;Banking</b></a></td>
+			</tr>
+			</table>
+		<!--::Personal Banking Header:://-->
+		</layer>	
+		</ilayer>
+		</div>
+		
+		</td>
+		<td width="1" bgColor="#336699" valign="bottom"><img src="/media/images/spacer.gif" width="1" height="1" border="0"></td>
+		</tr>
+		<tr>
+		<td bgColor="#264E76"><img src="/media/images/spacer.gif" width="1" height="1"></td>
+		</tr>
+		<tr>
+		<td>
+		<div id="sc1">
+      <!--:::Personal Banking Menu::://-->
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+      <td colspan="3"><img src="/media/images/spacer.gif" width="1" height="3"></td>
+      </tr>
+      <tr>
+        <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="pb_1"></td>
+        <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+        <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('personalbanking/checking','personalbanking','/index.upb','')" onMouseOver="document.pb_1.src='/media/images/little_tri.gif';" onMouseOut="document.pb_1.src='/media/images/spacer.gif'">Checking</a></td>
+      </tr>
+      <tr>
+        <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="pb_2"></td>
+        <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+        <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('personalbanking/credit','personalbanking','/index.upb','')" onMouseOver="document.pb_2.src='/media/images/little_tri.gif';" onMouseOut="document.pb_2.src='/media/images/spacer.gif'">Credit Cards</a></td>
+      </tr>
+      <tr>
+        <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="pb_3"></td>
+        <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+        <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('personalbanking/currency','personalbanking','/index.upb','')" onMouseOver="document.pb_3.src='/media/images/little_tri.gif';" onMouseOut="document.pb_3.src='/media/images/spacer.gif'">Currency Exchange</a></td>
+      </tr>
+      <tr>
+        <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="pb_7"></td>
+        <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+        <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('personalbanking/UPIB','personalbanking','/index.upb','')" onMouseOver="document.pb_7.src='/media/images/little_tri.gif';" onMouseOut="document.pb_7.src='/media/images/spacer.gif'">Internet Banking</a></td>
+      </tr>
+      <tr>
+        <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="pb_4"></td>
+        <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+        <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('personalbanking/ira','personalbanking','/index.upb','')" onMouseOver="document.pb_4.src='/media/images/little_tri.gif';" onMouseOut="document.pb_4.src='/media/images/spacer.gif'">IRA's</a></td>
+      </tr>
+      <tr>
+        <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="pb_5"></td>
+        <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+        <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('personalbanking/loans','personalbanking','/index.upb','')" onMouseOver="document.pb_5.src='/media/images/little_tri.gif';" onMouseOut="document.pb_5.src='/media/images/spacer.gif'">Loans</a></td>
+      </tr>
+      <tr>
+        <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="pb_6"></td>
+        <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+        <td width="96%" align="left" class="indexTxt"><a href="http://mortgage.upbna.com" onMouseOver="document.pb_6.src='/media/images/little_tri.gif';" onMouseOut="document.pb_6.src='/media/images/spacer.gif'">Mortgages</a></td>
+      </tr>
+      <tr>
+        <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="pb_8"></td>
+        <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+        <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('personalbanking/retirement','personalbanking','/index.upb','')" onMouseOver="document.pb_8.src='/media/images/little_tri.gif';" onMouseOut="document.pb_8.src='/media/images/spacer.gif'">Retirement Planning</a></td>
+      </tr>
+      <tr>
+        <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="pb_9"></td>
+        <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+        <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('personalbanking/savings','personalbanking','/index.upb','')" onMouseOver="document.pb_9.src='/media/images/little_tri.gif';" onMouseOut="document.pb_9.src='/media/images/spacer.gif'">Savings and CD's</a></td>
+      </tr>
+      </table>
+      <!--:::Personal Banking Menu::://-->
+	  </div>
+		</td>
+		</tr>
+		</table>
+		<!--:::Personal Banking Table End::://-->
+	</layer>
+	</ilayer>
+	</td>
+	<!--:::Personal Banking::://-->
+	
+	<!--:::Business Banking::://-->
+	<td valign="top" width="19%" onMouseOver="styleOver('bb','bb','sc2')" onMouseOut="styleOut('bb','bb','sc2')">
+	<ilayer name="bbanchor" width="100%">
+	<layer name="bbHldr" width="100%" top="0" left="0" onMouseOver="changeit('bbanchor','bbHldr','anchor3','anchor4','businessbanking','Business&nbsp;Banking');" onMouseOut="changeitBk('bbanchor','bbHldr','anchor3','anchor4','businessbanking','Business&nbsp;Banking');">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+	<td width="100%" bgColor="#6281A1" colspan="2"><img src="/media/images/spacer.gif" width="1" height="1"></td>
+	</tr>
+	<tr>
+	<td valign="top">
+	<div id="bb" class="indxHrdinitBK">
+	<ilayer name="anchor3" width="100%" bgColor="#FFFFFF">
+	<layer name="anchor4" width="100%">
+	<!--::Business Banking Header:://-->
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+	<td><img src="/media/images/sec_tri.gif" width="10" height="18" name="bb_tri"></td>
+	<td width="2%"><img src="/media/images/spacer.gif" width="5" height="2"></td>
+	<td width="98%" height="20" class="topMenu"><a href="javascript:SiteIndx('businessbanking','businessbanking','/index.upb','')"><b>Business&nbsp;Banking</b></a></td>
+	</tr>
+	</table>
+	<!--::Business Banking Header:://-->
+	</layer>
+	</ilayer>
+	</div>
+	</td>
+	<td width="1" bgColor="#336699" valign="bottom"><img src="/media/images/spacer.gif" width="1" height="5" border="0"></td>
+	</tr>
+	<tr>
+	<td width="100%" bgColor="#264E76"><img src="/media/images/spacer.gif" width="1" height="1"></td>
+	</tr>
+	<tr>
+	<td>
+	<div id="sc2">
+    <!--:::Business Banking Menu::://-->
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+    <td colspan="3"><img src="/media/images/spacer.gif" width="1" height="3"></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="bb_1"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('businessbanking/cash','businessbanking','/index.upb','')" onMouseOver="document.bb_1.src='/media/images/little_tri.gif';" onMouseOut="document.bb_1.src='/media/images/spacer.gif'">Cash Management</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="bb_2"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('businessbanking/credit','businessbanking','/index.upb','')" onMouseOver="document.bb_2.src='/media/images/little_tri.gif';" onMouseOut="document.bb_2.src='/media/images/spacer.gif'">Credit Cards</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="bb_3"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('businessbanking/deposit','businessbanking','/index.upb','')" onMouseOver="document.bb_3.src='/media/images/little_tri.gif';" onMouseOut="document.bb_3.src='/media/images/spacer.gif'">Deposit Services</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="bb_4"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('businessbanking/leasing','businessbanking','/index.upb','')" onMouseOver="document.bb_4.src='/media/images/little_tri.gif';" onMouseOut="document.bb_4.src='/media/images/spacer.gif'">Equipment Leasing</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="bb_5"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('insurance/business','insurance','/index.upb','')" onMouseOver="document.bb_5.src='/media/images/little_tri.gif';" onMouseOut="document.bb_5.src='/media/images/spacer.gif'">Insurance</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="bb_6"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('businessbanking/international','businessbanking','/index.upb','')" onMouseOver="document.bb_6.src='/media/images/little_tri.gif';" onMouseOut="document.bb_6.src='/media/images/spacer.gif'">International</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="bb_13"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('businessbanking/UPBiz','businessbanking','/index.upb','')" onMouseOver="document.bb_13.src='/media/images/little_tri.gif';" onMouseOut="document.bb_13.src='/media/images/spacer.gif'">Internet Banking</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="bb_7"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('businessbanking/loans','businessbanking','/index.upb','')" onMouseOver="document.bb_7.src='/media/images/little_tri.gif';" onMouseOut="document.bb_7.src='/media/images/spacer.gif'">Loans & Credit</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="bb_8"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('businessbanking/merchant','businessbanking','/index.upb','')" onMouseOver="document.bb_8.src='/media/images/little_tri.gif';" onMouseOut="document.bb_8.src='/media/images/spacer.gif'">Merchant Services</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="bb_9"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('businessbanking/lending','businessbanking','/index.upb','')" onMouseOver="document.bb_9.src='/media/images/little_tri.gif';" onMouseOut="document.bb_9.src='/media/images/spacer.gif'"> Specialty Lending</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="bb_10"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:lvngDisc('http://www.soi.net')" onMouseOver="document.bb_10.src='/media/images/little_tri.gif';" onMouseOut="document.bb_10.src='/media/images/spacer.gif'">Strategic Outsourcing</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="bb_11"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:lvngDisc('http://www.capitalfactors.com')" onMouseOver="document.bb_11.src='/media/images/little_tri.gif';" onMouseOut="document.bb_11.src='/media/images/spacer.gif'">Capital Factors</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="bb_12"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('businessbanking/UPDATE','businessbanking','/index.upb','')" onMouseOver="document.bb_12.src='/media/images/little_tri.gif';" onMouseOut="document.bb_12.src='/media/images/spacer.gif'">UPDATE</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="bb_14"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('businessbanking/UPPayCard','businessbanking','/index.upb','')" onMouseOver="document.bb_14.src='/media/images/little_tri.gif';" onMouseOut="document.bb_14.src='/media/images/spacer.gif'">UPPayCard</a></td>
+    </tr>
+    </table>
+    <!--:::Business Banking Menu::://-->
+  </div>
+	</td>
+	</tr>
+	</table>
+	</layer>
+	</ilayer>
+	</td>
+	<!--:::Business Banking::://-->
+	<!--:::Insurance::://-->
+	<td valign="top" width="19%" onMouseOver="styleOver('in','in','sc3')" onMouseOut="styleOut('in','in','sc3')">
+	<ilayer name="inanchor" width="100%">
+	<layer name="inHldr" width="100%" top="0" left="0" onMouseOver="changeit('inanchor','inHldr','anchor5','anchor6' ,'insurance','Insurance');" onMouseOut="changeitBk('inanchor','inHldr','anchor5','anchor6' ,'insurance','Insurance');">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+	<td width="100%" bgColor="#6281A1" colspan="2"><img src="/media/images/spacer.gif" width="1" height="1"></td>
+	</tr>
+	<tr>
+	<td valign="top">
+	<div id="in" class="indxHrdinitBK">
+	<ilayer name="anchor5" width="100%" bgColor="#FFFFFF">
+	<layer name="anchor6" width="100%">
+	<!--::Insurance Header:://-->
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+	<td><img src="/media/images/sec_tri.gif" width="10" height="18" name="in_tri"></td>
+	<td width="2%"><img src="/media/images/spacer.gif" width="5" height="2"></td>
+	<td width="98%" class="topMenu" height="20"><a href="javascript:SiteIndx('insurance','insurance','/index.upb','')"><b>Insurance</b></a></td>
+	</tr>
+	</table>
+	<!--::Insurance Header:://-->
+	</layer>
+	</ilayer>
+	</div>
+	</td>
+	<td width="1" bgColor="#336699" valign="bottom"><img src="/media/images/spacer.gif" width="1" height="5" border="0"></td>
+	</tr>
+	<tr>
+	<td width="100%" bgColor="#264E76"><img src="/media/images/spacer.gif" width="1" height="1"></td>
+	</tr>
+	<tr>
+	<td>
+	<div id="sc3">
+  <!--:::Insurance Menu::://-->
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+    <td colspan="3"><img src="/media/images/spacer.gif" width="1" height="3"></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="in_1"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('insurance/auto','insurance','/index.upb','')" onMouseOver="document.in_1.src='/media/images/little_tri.gif';" onMouseOut="document.in_1.src='/media/images/spacer.gif'">Auto Insurance</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="in_2"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('insurance/business','insurance','/index.upb','')" onMouseOver="document.in_2.src='/media/images/little_tri.gif';" onMouseOut="document.in_2.src='/media/images/spacer.gif'">Business Insurance</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="in_3"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('insurance/home','insurance','/index.upb','')" onMouseOver="document.in_3.src='/media/images/little_tri.gif';" onMouseOut="document.in_3.src='/media/images/spacer.gif'">Homeowners Insurance</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="in_4"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('insurance/life','insurance','/index.upb','')" onMouseOver="document.in_4.src='/media/images/little_tri.gif';" onMouseOut="document.in_4.src='/media/images/spacer.gif'">Life Insurance</a></td>
+    </tr>
+    </table>
+  <!--:::Insurance Menu::://-->
+  </div>
+	</td>
+	</tr>
+	</table>
+	</layer>
+	</ilayer>
+	</td>
+	<!--:::Insurance::://-->
+	<!--:::Investments::://-->
+	<td valign="top" width="21%" onMouseOver="styleOver('iv','iv','sc4')" onMouseOut="styleOut('iv','iv','sc4')">
+	<ilayer name="ivanchor" width="100%">
+	<layer name="ivHldr" width="100%" top="0" left="0" onMouseOver="changeit('ivanchor','ivHldr','anchor7','anchor8','investments','Investments');" onMouseOut="changeitBk('ivanchor','ivHldr','anchor7','anchor8','investments','Investments');">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+	<td width="100%" bgColor="#6281A1" colspan="2"><img src="/media/images/spacer.gif" width="1" height="1"></td>
+	</tr>
+	<tr>
+	<td valign="top">
+	<div id="iv" class="indxHrdinitBK">
+	<ilayer name="anchor7" width="100%" bgColor="#FFFFFF">
+	<layer name="anchor8" width="100%">
+	<!--::Investments Header:://-->
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+	<td><img src="/media/images/sec_tri.gif" width="10" height="18" name="iv_tri"></td>
+	<td width="2%"><img src="/media/images/spacer.gif" width="5" height="2"></td>
+	<td width="98%" class="topMenu" height="20"><a href="javascript:SiteIndx('investments','investments','/index.upb','')"><b>Investments</b></a></td>
+	</tr>
+	</table>
+	<!--::Investments Header:://-->
+	</layer>
+	</ilayer>
+	</div>
+	</td>
+	<td width="1" bgColor="#336699"><img src="/media/images/spacer.gif" width="1" height="5" border="0"></td>
+	</tr>
+	<tr>
+	<td width="100%" bgColor="#264E76"><img src="/media/images/spacer.gif" width="1" height="1"></td>
+	</tr>
+	<tr>
+	<td>
+  <div id="sc4">
+  <!--:::Investments Menu::://-->
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="3"><img src="/media/images/spacer.gif" width="1" height="3"></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="iv_1"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('investments/discount','investments','/index.upb','')" onMouseOver="document.iv_1.src='/media/images/little_tri.gif';" onMouseOut="document.iv_1.src='/media/images/spacer.gif'">Discount Brokerage</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="iv_2"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('investments/full','investments','/index.upb','')" onMouseOver="document.iv_2.src='/media/images/little_tri.gif';" onMouseOut="document.iv_2.src='/media/images/spacer.gif'">Full Service Brokerage</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="iv_3"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('investments/advisors','investments','/index.upb','')" onMouseOver="document.iv_3.src='/media/images/little_tri.gif';" onMouseOut="document.iv_3.src='/media/images/spacer.gif'">UP Investment Advisors</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="iv_4"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('investments/leader','investments','/index.upb','')" onMouseOver="document.iv_4.src='/media/images/little_tri.gif';" onMouseOut="document.iv_4.src='/media/images/spacer.gif'">LEADER Mutual Funds</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="iv_5"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('investments/market','investments','/index.upb','')" onMouseOver="document.iv_5.src='/media/images/little_tri.gif';" onMouseOut="document.iv_5.src='/media/images/spacer.gif'">Market Reports</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="iv_6"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('investments/tax','investments','/index.upb','')" onMouseOver="document.iv_6.src='/media/images/little_tri.gif';" onMouseOut="document.iv_6.src='/media/images/spacer.gif'">Tax Deferred Annuities</a></td>
+    </tr>
+    <tr>
+      <td width="3%" align="right" valign="top"><img src="media/images/spacer.gif" width="9" height="13" name="iv_7"></td>
+      <td width="1%" align="left" valign="top"><img src="/media/images/spacer.gif" width="5" height="5"></td>
+      <td width="96%" align="left" class="indexTxt"><a href="javascript:SiteIndx('investments/trust','investments','/index.upb','')" onMouseOver="document.iv_7.src='/media/images/little_tri.gif';" onMouseOut="document.iv_7.src='/media/images/spacer.gif'">Trust & Investments</a></td>
+    </tr>
+    </table>
+  </div>
+	</td>
+	</tr>
+	</table>
+	</layer>
+	</ilayer>
+	</td>
+	<!--:::Investments::://-->
+	<!--:::Search and Promo Content::://-->
+	<td align="right" valign="top" width="25%">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+	<td width="100%" bgColor="#6281A1"><img src="/media/images/spacer.gif" width="1" height="1" border="0"></td>
+	</tr>
+	<tr>
+	<td>
+		<!--::Search Table Starts:://-->
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" bgColor="#40668C" height="20">
+		<form name="srchIndex" method="get" action="/menu/search/index.upb"> 
+		<tr>
+		<td width="20%" align="left" class="srch"><p>&nbsp;search:</p></td>
+		<td width="62%" align="center"><input type="text" name="SearchString" size="9" style="width: 100%" value="">
+		    <input type="hidden" name="Action" value="Execute">
+		    <input type="hidden" name="section_focus" value="upinformation">
+		    <input type="hidden" name="the_item" value="upinformation">
+		</td>
+		<td width="18%" align="left" valign="middle"><input type="image" src="/media/images/doc_srch_go.gif" width="26" height="19" border="0" onClick="javascript:document.srchIndex.action='/menu/search/index.upb';document.srchIndex.submit();"></td>
+		</tr>
+		</form>
+		</table>
+		<!--::Search Table Ends:://-->
+	</td>
+	</tr>
+	<tr>
+	<td bgColor="#264E76"><img src="/media/images/spacer.gif" width="1" height="1" border="0"></td>
+	</tr>
+	<tr>
+	<td><img src="/media/images/spacer.gif" width="1" height="3" border="0"></td>
+	</tr>
+	<tr>
+	<td align="left" valign="top" onMouseOver="document.getElementById('pm1').className='mrktngTxtHdrOn';document.getElementById('pm2').className='mrktngTxtOn';" onMouseOut="document.getElementById('pm1').className='mrktngTxtHdr';document.getElementById('pm2').className='mrktngTxt';">
+		<!--:::Start Marketing Table Promo Section I::://-->
+		<table width="100%" border="0" cellspacing="1" cellpadding="1">
+		<tr>
+		<td valign="top">
+		<div id="pm1" class="mrktngTxtHdr">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+			<td width="1%" valign="top"><img src="/media/images/new_gold.gif" width="36" height="25" border="0"></td>		
+			<td width="1%" valign="top"><img src="/media/images/spacer.gif" width="5" height="1" border="0"></td>		
+			<td width="99%" valign="middle"><a href="javascript:SiteIndx('personalbanking/UPIB','personalbanking','/index.upb','')">UPInternet Banking</a></td>
+			</tr>
+			</table>
+		</div>
+		</td>
+		</tr>
+    <tr>
+		<td align="center" valign="top">
+		<div id="pm2" class="mrktngTxt">
+		  <table width="90%" border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+  		<td width="45%" align="left" valign="middle"><a href="javascript:SiteIndx('personalbanking/UPIB','personalbanking','/index.upb','')">Real&nbsp;fast.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Real&nbsp;easy<br>&nbsp;&nbsp;Real&nbsp;time!</a></td>
+  		<td width="55%" align="left" valign="top"><a href="javascript:SiteIndx('personalbanking/UPIB','personalbanking','/index.upb','')"><img src="/media/images/mrk2.gif" width="92" height="63" border="0"></a></td>
+  		</tr>
+  		<tr>
+  		<td colspan="2" valign="top"><img src="/media/images/spacer.gif" width="1" height="3"></td>
+  		</tr>
+  		<tr>
+  		<td colspan="2" align="center" valign="middle"><a href="https://upib.unionplanters.com/upib/">Log In</a> <a href="">|</a> <a href="javascript:popUpPic2('note.upb',350,320)">Enroll Now</a> <a href="">|</a> <a href="javascript:SiteIndx('personalbanking/UPIB','personalbanking','/index.upb','')">Learn More</a></td>
+  		</tr>
+			</table>		
+		</div>
+		</td>
+		</tr>
+		<tr>
+		<td colspan="2" align="left" valign="top"><script language="javascript">
+		<!--
+		if (screen.width) { 
+		var SWidth = screen.width;
+		if (SWidth > 800) {
+		document.write("<img src='/media/images/spacer.gif' width='1' height='20' border='0'>");
+		} else {
+		document.write("<img src='/media/images/spacer.gif' width='1' height='2' border='0'>");
+		}
+		}
+		//-->
+		</script><noscript><img src='/img/spacer.gif' width='1' height='5' border='0'></noscript></td>
+		</tr>
+		</table>
+		<!--:::End Marketing Table Promo Section I::://-->
+	</td>
+	</tr>
+	<tr>
+	<td bgColor="#6281A1"><img src="/media/images/spacer.gif" width="1" height="1" border="0"></td>
+	</tr>
+	<tr>
+	<td><img src="/media/images/spacer.gif" width="1" height="3" border="0"></td>
+	</tr>
+	<tr>
+	<td align="left" valign="top" onMouseOver="document.getElementById('pm3').className='mrktngTxtHdrOn';document.getElementById('pm4').className='mrktngTxtOn';" onMouseOut="document.getElementById('pm3').className='mrktngTxtHdr';document.getElementById('pm4').className='mrktngTxt';">
+		<!--::Start Marketing Promo Section II:://-->
+		<table width="100%" border="0" cellspacing="1" cellpadding="1">
+		<tr>	
+		<td>
+    <div id="pm3" class="mrktngTxtHdr">  
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+			<td width="1%" valign="top"><img src="/media/images/new.gif" width="36" height="25" border="0"></td>		
+			<td width="1%" valign="top"><img src="/media/images/spacer.gif" width="5" height="1" border="0"></td>		
+			<td width="99%" valign="middle"><a href="javascript:SiteIndx('businessbanking/UPBiz','businessbanking','/index.upb','')">UP<i>Internet Banking for&nbsp;Business</i></a></td>
+			</tr>
+			</table>
+		</div>
+		</td>
+		</tr>
+    <tr>
+    <td><img src="/media/images/spacer.gif" width="1" height="5" border="0"></td>
+    </tr>
+		<tr>
+		<td align="center" valign="top">
+    <div id="pm4" class="mrktngTxt">
+      <table width="90%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+			<td width="50%" align="right" valign="top"><a href="javascript:SiteIndx('businessbanking/UPBiz','businessbanking','/index.upb','')"><img src="/media/images/mrk1.gif" width="95" height="45" border="0"></a></td>		
+			<td width="50%" align="left" valign="middle"><a href="javascript:SiteIndx('businessbanking/UPBiz','businessbanking','/index.upb','')">&nbsp;&nbsp;&nbsp;<i>Real&nbsp;control</i><br><i>Real speed</i><br>&nbsp;<i>Real time!</i></a></td>
+			</tr>
+      <tr>
+      <td colspan="2"><img src="/media/images/spacer.gif" width="1" height="5" border="0"></td>
+      </tr>
+      <tr>
+      <td colspan="2" align="center" valign="top"><a href="https://upibbiz.unionplanters.com/upib/">Log In</a> <a href="">|</a> <a href="javascript:popUpPic2('notebiz.upb',350,320)">Enroll Now</a> <a href="">|</a> <a href="javascript:SiteIndx('businessbanking/UPBiz','businessbanking','/index.upb','')">Learn More</a></td>
+      </tr>
+			</table>
+    </div>
+		</td>
+		</tr>
+		</table>
+		<!--::End Marketing Promo Section II:://-->
+	</td>
+	</tr>
+	</table>
+	</td>
+	<!--:::Search and Promo Content::://-->
+	</tr>
+	</table>
+	<!--:::Holding Table Ends::://-->
+</td>
+</tr>
+<tr> 
+<td align="left" valign="top"><script language="javascript">
+<!--
+if (screen.width) { 
+var SWidth = screen.width;
+if (SWidth > 800) {
+document.write("<img src='/media/images/spacer.gif' width='1' height='50' border='0'>");
+} else {
+document.write("<img src='/media/images/spacer.gif' width='1' height='5' border='0'>");
+}
+}
+//-->
+</script><noscript><img src='/img/spacer.gif' width='1' height='5' border='0'></noscript></td>
+</tr>
+<tr> 
+<td align="left" valign="top">
+	<!--:::UPInfo Table Starts::://-->
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+	<td width="99%" align="left" valign="middle" class="srch"><a href="javascript:SiteIndx('upinformation/career','upinformation','/index.upb','');" onMouseOver="window.status= 'Careers';return true" onMouseOut="window.status='Union Planters';return true">&nbsp;Careers | </a>
+ 	<a href="javascript:SiteIndx('upinformation/investor','upinformation','/index.upb','');" onMouseOver="window.status= 'Investor Relations';return true" onMouseOut="window.status='Union Planters';return true">Investor Relations | </a>
+ 	<a href="javascript:SiteIndx('upinformation/privacy','upinformation','/index.upb','');" onMouseOver="window.status= 'Privacy Policy';return true" onMouseOut="window.status='Union Planters';return true">Privacy Policy | </a>
+ 	<a href="javascript:SiteIndx('upinformation/terms','upinformation','/index.upb','');" onMouseOver="window.status= 'Terms of Use';return true" onMouseOut="window.status='Union Planters';return true">Terms of Use | </a>
+ 	<a href="javascript:SiteIndx('contact','upinformation','/Index.upb','');" onMouseOver="window.status= 'Customer Service';return true" onMouseOut="window.status='Union Planters';return true">Customer Service</a></td>
+	<td width="1%" align="right" valign="bottom"> 
+	<!--::Branch Locator Starts:://-->
+	<table width="200" border="0" cellspacing="0" cellpadding="0">
+  <form name="form2" method="GET" action="/the-bin/">
+  <input TYPE="HIDDEN" NAME="link" VALUE="map">
+  <input TYPE="HIDDEN" NAME="closestprox" VALUE="1">
+  <input TYPE="HIDDEN" NAME="closestn" VALUE="15">
+  <input TYPE="HIDDEN" NAME="miles" VALUE="999">
+  <input TYPE="HIDDEN" NAME="width" VALUE="420">
+  <input TYPE="HIDDEN" NAME="height" VALUE="270">
+  <input TYPE="HIDDEN" NAME="level" VALUE="6">
+  <input TYPE="HIDDEN" NAME="clientPOI2" VALUE="1">
+  <input TYPE="HIDDEN" NAME="clientPOI3" VALUE="1">
+  <tr>
+  <td width="1%" align="left"><img src="/media/images/edge.gif" width="10" height="20"></td>
+  <td width="18%" bgColor="#336699" align="left" class="srch">&nbsp;<a href="javascript:SiteIndx('upinformation/locator','upinformation','/index.upb','')">locate&nbsp;us:</a>&nbsp;</td>
+  <td width="61%" bgColor="#336699" align="left"><input type="text" name="zip" size="6" MAXLENGTH="10" value=" zip code" style="width: 100%" onFocus="this.value='';"></td>
+  <td width="20%" bgColor="#336699" align="left" valign="middle"><input type="image" src="/media/images/doc_srch_go.gif" width="26" height="19" border="0"></td>
+  </tr>
+  </form>
+	</table>
+ 	<!--::Branch Locator Ends:://-->
+ 	</td>
+	</tr>
+	<tr> 
+	<td colspan="2" align="left" valign="middle"><img src="/media/images/spacer.gif" width="1" height="1"></td>
+	</tr>
+	<tr align="left" valign="middle"> 
+	<td colspan="2">
+	 <table width="100%" height="30" bgcolor="#336699" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+	 <td width="99%" height="20" class="srch"><p>&nbsp;Union Planters refers to Union Planters Corporation, Union Planters Bank, N.A. and any of their affiliates.<br>&nbsp;Copyright © 2003 Union Planters Bank, N.A.  All Rights Reserved.  Member FDIC</p></td>
+	 <td width="1%"><img src="/media/images/ehl_logo_index.gif" width="170" height="20"></td>
+	 </tr>
+	 </table>
+	</tr>
+	</table>
+	<!--:::UPInfo Table Ends::://-->
+</td>
+</tr>
+</table>
+
+</body>
+</html>
+

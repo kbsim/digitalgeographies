@@ -1,0 +1,455 @@
+.bodyTxt {
+font-family: arial, verdana, helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+color: #000000;
+text-decoration: none;
+}
+
+
+.pHeader	{
+font-family: tahoma, arial, helvetica, sans-serif; 
+font-size: 15px;
+font-weight: bold;
+color: #003366;
+text-decoration: none;
+margin-bottom: 0px;
+padding-bottom: 0px;
+border: 0px;
+}
+
+
+P	{
+font-family: arial, verdana, helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+color: #000000;
+text-decoration: none;
+}
+
+P	b	{
+font-family: arial, verdana, helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #000000;
+text-decoration: none;
+}
+
+A	{
+font-family: arial, verdana, helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+color: #007850;
+text-decoration: underline;
+}
+
+H1 {
+font-family: tahoma, arial, helvetica, sans-serif; 
+font-size: 15px;
+font-weight: bold;
+color: #003366;
+text-decoration: none;
+margin-bottom: 0px;
+padding-bottom: 0px;
+border: 0px;
+}
+
+H2 {
+font-family: verdana, arial, helvetica, sans-serif; 
+font-size: 12px;
+font-weight: bold;
+color: #003366;
+text-decoration: none;
+margin-bottom: 0px;
+padding-bottom: 0px;
+border: 0px;
+}
+
+UL {
+font-family: arial, verdana, helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+color: #000000;
+text-decoration: none;
+}
+
+UL A	{
+font-family: arial, verdana, helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+color: #007850;
+text-decoration: none;
+}
+
+UL A:hover	{
+font-family: arial, verdana, helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+color: #007850;
+text-decoration: underline;
+}
+
+OL {
+font-family: arial, verdana, helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+color: #000000;
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* -- Form Styles -- */
+FORM	{
+margin-bottom: 0px;
+padding-bottom: 0px;
+border: 0px;
+}
+
+INPUT 	{
+font-family: verdana, arial, helvetica, sans-serif; 
+font-size: 10px;
+}
+
+SELECT	{
+font-family: verdana, arial, helvetica, sans-serif; 
+font-size: 10px;
+}
+
+<!--//For NS4//-->
+.selectField 	{
+font-family: verdana, arial, helvetica, sans-serif; 
+font-size: 11px;
+}
+
+.inptClass	{
+width: 100%;
+}
+
+.btnColr	{
+font-family: verdana, arial, helvetica, sans-serif; 
+font-size: 10px;
+font-weight: normal;
+color: #FFFFFF;
+background-color: #003366;
+border-color: #486D91 #003366 #003366 #486D91;
+}
+
+
+
+
+
+/* -- Navigation-- */
+.topMenu A	{
+font-family: verdana, arial, helvetica, sans-serif; 
+font-size: 10px;
+color: #333333;
+font-style: normal;
+text-decoration: none;
+font-weight: bold;
+}
+
+.topMenuB A	{
+font-family: verdana, arial, helvetica, sans-serif; 
+font-size: 10px;
+color: #FFFFFF;
+font-style: normal;
+text-decoration: none;
+font-weight: bold;
+}
+
+.leftMenu A	{  
+font-family: verdana, arial, helvetica, sans-serif; 
+font-size: 10px;
+color: #000000;
+font-style: normal;
+text-decoration: none;
+font-weight: normal;
+}
+
+
+
+
+
+
+
+
+/* -- Doc Styles-- */
+.Slctd	{
+font-family: verdana, arial, helvetica, sans-serif; 
+font-size: 10px;
+color: #FFFFFF;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+vertical-align: middle;
+}
+
+.indxPg	{
+font-family: tahoma, arial, helvetica, sans-serif; 
+font-size: 12px;
+font-weight: bold;
+color: #003366;
+text-decoration: none;
+line-height: 17px;
+}
+
+.indxPg	A {
+font-family: tahoma, arial, helvetica, sans-serif; 
+font-size: 12px;
+font-weight: bold;
+color: #003366;
+text-decoration: none;
+line-height: 17px;
+}
+
+
+.indxPgLnk  A {
+font-family: tahoma, arial, helvetica, sans-serif; 
+font-size: 11px;
+font-weight: normal;
+color: #000000;
+text-decoration: none;
+line-height: 17px;
+}
+
+.indxPgLnk  A:hover {
+font-family: tahoma, arial, helvetica, sans-serif; 
+font-size: 11px;
+font-weight: normal;
+color: #007850;
+text-decoration: underline;
+line-height: 17px;
+}
+
+.pTitle {
+font-family: arial, verdana, helvetica, sans-serif;
+font-size: 13px;
+font-weight: bold;
+font-style: italic; 
+color: #003366;
+text-decoration: none;
+}
+
+.disclosure	{
+font-family: verdana, arial, helvetica, sans-serif; 
+font-size: 10px;
+font-weight: normal;
+color: #666666;
+text-decoration: none;
+}
+
+.disclosure	strong{
+font-family: verdana, arial, helvetica, sans-serif; 
+font-size: 10px;
+font-weight: bold;
+color: #666666;
+text-decoration: none;
+}
+
+
+.disRed	{
+font-family: verdana, arial, helvetica, sans-serif; 
+font-size: 10px;
+font-weight: normal;
+color: #FF0000;
+text-decoration: none;
+}
+
+.UPInfo	{
+font-family: verdana, arial, helvetica, sans-serif; 
+font-size: 11px;
+font-weight: bold;
+color: #008000;
+}
+
+.UPInfo A	{
+font-family: verdana, arial, helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: #008000;
+}
+
+.small	{
+font-family: verdana, arial, helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color: #000000;
+text-decoration: none;
+vertical-align: super;
+}
+
+.srch	P	{
+font-family: verdana, arial, helvetica, sans-serif; 
+font-size: 10px;
+font-weight: normal;
+color: #CCCCCC;
+text-decoration: none;
+}
+
+.srch A	{
+font-family: verdana, arial, helvetica, sans-serif; 
+font-size: 10px;
+font-weight: normal;
+color: #CCCCCC;
+text-decoration: none;
+}
+
+.footer	{
+font-family: verdana, arial, helvetica, sans-serif; 
+font-size: 10px;
+font-weight: normal;
+color: #000000;
+text-decoration: none;
+}
+
+.footer A	{
+font-family: verdana, arial, helvetica, sans-serif; 
+font-size: 10px;
+font-weight: normal;
+color: #003366
+}
+
+
+
+
+
+
+/* -- Index Headers + Text-- */
+.indexTxt A	{
+font-family: verdana, arial, helvetica, sanserif;
+font-size: 10px;
+font-weight: normal;
+color: #437BB3;
+text-decoration: none;
+line-height: 14px
+}
+
+.indexTxtSlctd A	{
+font-family: verdana, arial, helvetica, sanserif;
+font-size: 10px;
+font-weight: normal;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.indxHrdinitBK	{
+background-color: white;
+}
+
+
+
+
+
+
+
+
+
+/* -- Marketing -- */
+.mrktngTxtHdr A{
+font-family: verdana, arial, helvetica, sanserif;
+font-size: 10px;
+font-weight: bold;
+color: #437BB3;
+text-decoration: underline;
+}
+
+.mrktngTxtHdrOn A{
+font-family: verdana, arial, helvetica, sanserif;
+font-size: 10px;
+font-weight: bold;
+color: #FFCC00;
+text-decoration: underline;
+}
+
+
+
+
+.mrktngTxt	A{
+font-family: verdana, arial, helvetica, sanserif;
+font-size: 10px;
+font-weight: normal;
+color: #CCCCCC;
+text-decoration: none;
+}
+
+.mrktngTxtOn	A{
+font-family: verdana, arial, helvetica, sanserif;
+font-size: 10px;
+font-weight: normal;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.SrchRecordTitle {
+font-family: Verdana, Arial, Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 10pt;
+color: black;
+background-color: #E2E8EF;
+}
+
+
+.dataBass{
+font-family: verdana, helvetica, sans-serif;
+font-size: 10px;
+font-weight: bold;
+color: #333333;
+text-decoration: none;
+}
+
+.dataBass1{
+font-family: tahoma, helvetica, sans-serif;
+font-size: 10px;
+font-weight: bold;
+color: #000000;
+text-decoration: none;
+}
+
+.dataBass2{
+font-family: verdana, helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color: #000000;
+text-decoration: none;
+}
+
+.dataBass3{
+font-family: tahoma, helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color: #007850;
+text-decoration: underline;
+}
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 19:49:57 Jun 03, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:03:53 Feb 02, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.192
+  load_resource: 99.69
+  exclusion.robots: 0.204
+  esindex: 0.015
+  PetaboxLoader3.resolve: 25.85
+  CDXLines.iter: 52.953 (3)
+  RedisCDXSource: 0.675
+  LoadShardBlock: 311.661 (3)
+  PetaboxLoader3.datanode: 345.427 (4)
+  captures_list: 370.842
+*/
