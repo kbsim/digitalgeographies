@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--This is how you comment for html-->
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+    <title> My Map </title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet' />  </head>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  <body>
+    <div id='map'></div>
+    <script>
+
+//variables (var) up the top
+mapboxgl.accessToken = 'pk.eyJ1Ijoia3NpbTA3IiwiYSI6ImNrZnV6OTNyMjBreGkyem40bjc5MXl4M20ifQ.D8e5aKUdqAqMMNvUvQgIXw';
+// map.on(functions) at the bottom!
+var map = new mapboxgl.Map({
+  container: 'map', // container id
+  style: 'mapbox://styles/mapbox/light-v10', // stylesheet location
+  zoom: 12 // starting zoom
+});
+var geolocate = new mapboxgl.GeolocateControl({
+  positionOptions: {
+    enableHighAccuracy: true
+  },
+  trackUserLocation: true
+});
+
+var geojson ={
+  type: 'FeatureCollection',
+  features: [
+    {
+      type: 'Feature',
+      properties: {
+        Title: 'Whole Foods Market'
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [
+          -122.25980758666994,
+          37.85544024248991
+        ]
+      }
+    },
+    {
+      type: 'Feature',
+      properties: {
+        Title: 'Restaurant'
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [
+          -122.26864814758301,
+          37.874921144262174
+        ]
+      }
+    },
+    {
+      type: 'Feature',
+      properties: {
+        Title: 'CED'
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [
+          -122.25470066070557,
+          37.869467010881124
+        ]
+      }
+    }
+  ]
+};
+var popup = new mapboxgl.Popup();
+map.addControl(geolocate);
+map.on('load', function() {
+  geolocate.trigger();
+  map.addLayer({
+    id: 'geojson',
+    type: 'symbol',
+  source: {
+    type: 'geojson',
+    data: geojson
+  },
+  layout: {
+    'icon-image': 'park-15', // more icons here: https://labs.mapbox.com/maki-icons/editor/
+    'icon-allow-overlap': true
+  },
+  paint: { }
+})
+});
+map.on('mousemove', function(e) {
+  var features = map.queryRenderedFeatures(e.point, { layers: ['geojson'] });
+  if (!features.length) {
+    popup.remove();
+    return;
+  }
+  var feature = features[0];
+
+  popup.setLngLat(feature.geometry.coordinates)
+  .setHTML(feature.properties.Title)
+  .addTo(map);
+
+});
+    </script>
+  </body>
+</html>
