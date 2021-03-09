@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--This is how you comment for html-->
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+    <title> My Map </title>
+    <!--This where you put all your dependencies-->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div id='map'></div>
+    <script>
+
+//variables (var) up the top
+
+// map.on(functions) at the bottom!
+  mapboxgl.accessToken = 'pk.eyJ1Ijoia3NpbTA3IiwiYSI6ImNrZnV6OTNyMjBreGkyem40bjc5MXl4M20ifQ.D8e5aKUdqAqMMNvUvQgIXw';
+  // Add your access token here
+// Below, we set up a 'map' variable which is a new map, with a standard style
+  var map = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'mapbox://styles/mapbox/light-v10', // stylesheet location
+    center: [10.1508, 39.081], // starting position
+    zoom: 12 // starting zoom
+  });
+  var geolocate = new mapboxgl.GeolocateControl({
+  positionOptions: {
+    enableHighAccuracy: true
+  },
+  trackUserLocation: true
+});
+var geojson = {
+  type: 'FeatureCollection',
+  features: [
+    {
+      type: 'Feature',
+      properties: {
+        'marker-symbol': 'square-stroked',
+        'marker-color': '#7e7e7e',
+        'marker-size': 'medium',
+        Title: 'GM Flint Tool & Die'
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [
+          -83.69764566421509,
+          43.01324572053551
+        ]
+      }
+    },
+    {
+      type: 'Feature',
+      properties: {
+        'marker-color': '#7e7e7e',
+        'marker-size': 'medium',
+        'marker-symbol': 'circle',
+        Title: 'Flint River'
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [
+          -83.69430899620056,
+          43.01756515688026
+        ]
+      }
+    }
+  ]
+}
+
+;
+var popup = new mapboxgl.Popup();
+
+map.addControl(geolocate);
+map.on('load', function() {
+  geolocate.trigger();
+  map.addLayer({
+  id: 'geojson',
+  type: 'symbol',
+  source: {
+    type: 'geojson',
+    data: geojson
+  },
+  layout: {
+    'icon-image': 'park-15', // more icons here: https://labs.mapbox.com/maki-icons/editor/
+    'icon-allow-overlap': true
+  },
+  paint: { }
+})
+});
+map.on('mousemove', function(e) {
+  var features = map.queryRenderedFeatures(e.point, { layers: ['geojson'] });
+  if (!features.length) {
+    popup.remove();
+    return;
+  }
+  var feature = features[0];
+
+  popup.setLngLat(feature.geometry.coordinates)
+  .setHTML(feature.properties.Title)
+  .addTo(map);
+
+});
+</script>
+  </body>
+</html>
