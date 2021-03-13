@@ -35,14 +35,14 @@
   var map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/ksim07/cklscyw3x1cjh17mg5rsg8f28', // stylesheet location
-    center: [10.1508, 39.081], // starting position
+  // starting position
     zoom: 12 // starting zoom
   });
   var geolocate = new mapboxgl.GeolocateControl({
   positionOptions: {
     enableHighAccuracy: true
   },
-  trackUserLocation: false
+  trackUserLocation: true
 });
 var geojson = {
   type: 'FeatureCollection',
