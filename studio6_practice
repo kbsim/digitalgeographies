@@ -34,7 +34,7 @@
 // Below, we set up a 'map' variable which is a new map, with a standard style
   var map = new mapboxgl.Map({
     container: 'map', // container id
-    style: 'mapbox://styles/mapbox/light-v10', // stylesheet location
+    style: 'mapbox://styles/ksim07/cklscyw3x1cjh17mg5rsg8f28', // stylesheet location
     center: [10.1508, 39.081], // starting position
     zoom: 12 // starting zoom
   });
