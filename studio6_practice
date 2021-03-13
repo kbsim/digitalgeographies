@@ -42,7 +42,7 @@
   positionOptions: {
     enableHighAccuracy: true
   },
-  trackUserLocation: true
+  trackUserLocation: false
 });
 var geojson = {
   type: 'FeatureCollection',
