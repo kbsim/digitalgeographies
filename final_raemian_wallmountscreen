@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script language="javascript" type="text/javascript"  src="/Users/keebaiksim/Desktop/DigitalGeographiesStudios/FinalProject/abor/jquery.min.js"></script>
+        <script language="javascript" type="text/javascript" src="/Users/keebaiksim/Desktop/DigitalGeographiesStudios/FinalProject/abor/arbor.js" ></script>
+        <script language="javascript" type="text/javascript" src="/Users/keebaiksim/Desktop/DigitalGeographiesStudios/FinalProject/abor/graphics.js" ></script>
+        <script language="javascript" type="text/javascript" src="/Users/keebaiksim/Desktop/DigitalGeographiesStudios/FinalProject/abor/renderer.js" ></script>
+    </head>
+    <body>
+      <canvas id="viewport" width="900" height="600"></canvas>
+  <script language="javascript" type="text/javascript">
+        var sys = arbor.ParticleSystem(1000,100,0);
+        sys.parameters({repulsion: 1000, gravity:true, dt:0.07});
+        sys.renderer = Renderer("#viewport") ;
+        var data = {
+           nodes:{
+             //Wall mounted screen
+             WallMaountedScreen:{'color':'red','shape':'rectangle','label':'wall maounted screen'},
+             //Connections with other systems
+             ConnectionsWithOtherSystems:{'color':'green','label':"connections with other systems"},
+             SystemsOutsideTheUnit:{'color':'green','shape':'square','label':'systems outside the unit'},
+             SystemsInsideTheUnit:{'color':'green','shape':'rectangle','label':'systems inside the unit'},
+             //Wall mounted screen's built in functions
+             WallMountedScreenBuiltinFunctions:{'color':'green','shape':'rectangle','label':'wall mounted screen\'s built in functions'},
+             //Features for systems outside the unit
+             SurveilanceCam:{'color':'green','shape':'rectangle','label':'displays realtime video of playg round'},
+             PlayGround:{'color':'green','shape':'rectangle','label':'play ground'},
+             PlayGround1:{'color':'green','shape':'rectangle','label':'play ground1'},
+             PlayGround2:{'color':'green','shape':'rectangle','label':'play ground2'},
+             PlayGround3:{'color':'green','shape':'rectangle','label':'play ground3'},
+             FrontDoor:{'color':'green','shape':'rectangle','label':'front door'},
+             FrontDoorFunction:{'color':'green','shape':'rectangle','label':'displays a video of visitor'},
+             EntranceInParkingLot:{'color':'green','shape':'rectangle','label':'entrance in parking lot'},
+             EntranceOnTheFirstFloor:{'color':'green','shape':'rectangle','label':'entrance on the first floor'},
+             EntranceInParkingLotFunction:{'color':'green','shape':'rectangle','label':'takes a snapshots and videos of visitor'},
+             EntranceOnTheFirstFloorFunction:{'color':'green','shape':'rectangle','label':'takes a snapshots and videos of visitor'},
+             AptPackageLocker:{'color':'green','shape':'rectangle','label':'apt package locker'},
+             AptPackageLockerFunction:{'color':'green','shape':'rectangle','label':'notifies package arrival'},
+             Elevator:{'color':'green','shape':'rectangle','label':'elevator'},
+             ElevatorFunction1:{'color':'green','shape':'rectangle','label':'calls elevator'},
+             ElevatorFunction2:{'color':'green','shape':'rectangle','label':'tracks elevator'},
+             Intercom:{'color':'green','shape':'rectangle','label':'Intercom'},
+             IntercomFuntion1:{'color':'green','shape':'rectangle','label':'connects other units'},
+             IntercomFuntion2:{'color':'green','shape':'rectangle','label':'connects security office'},
+             AptManagementOffice:{'color':'green','shape':'rectangle','label':'apt management office'},
+             AptManagementOfficeFunction:{'color':'green','shape':'rectangle','label':'receives info from the management office'},
+
+             //Features for systems inside the unit
+             SystemsInsideTheUnit:{'color':'green','shape':'square','label':'systems inside the unit'},
+             HeaterAC:{'color':'green','shape':'square','label':'heater & AC'},
+             HeaterACFunction:{'color':'green','shape':'square','label':'controls heater & AC'},
+             Lighting:{'color':'green','shape':'square','label':'lighting'},
+             LightingFunction:{'color':'green','shape':'square','label':'controls lighting'},
+             Electricity:{'color':'green','shape':'square','label':'electricity'},
+             ElectricityFunction:{'color':'green','shape':'square','label':'tracks power usage'},
+             Stove:{'color':'green','shape':'square','label':'stove'},
+             StoveFunction:{'color':'green','shape':'square','label':'turns on/off the stove'},
+             LandlinePhone: {'color':'green','shape':'square','label':'landline phone'},
+             LandlinePhoneFunction: {'color':'green','shape':'square','label':'makes/answers phone calls'},
+             ElectricityOutlet:{ 'color':'green','shape':'square','label':'electricity outlet'},
+             ElectricityOutletFunction:{'color':'green','shape':'square','label':'controls outlets'},
+             //Features for wall mounted screen's built-in functions
+             VoiceMemo:{ 'color':'green','shape':'square','label':'voice memo'},
+             PhotoAlbum:{ 'color':'green','shape':'square','label':'photo album'},
+             WeatherCondition:{ 'color':'green','shape':'square','label':'weather condition'},
+             Calendar:{ 'color':'green','shape':'square','label':'calendar'},
+             HomeSecurityVideo:{ 'color':'green','shape':'square','label':'home secutiry video'},
+             HomeSecurityVideoFunction1:{ 'color':'green','shape':'square','label':'records viedo of home'},
+             HomeSecurityVideoFunction2:{ 'color':'green','shape':'square','label':'records viedo of entrance'},
+             LocationDetection:{ 'color':'green','shape':'square','label':'location detection'},
+             LocationDetectionFunction1:{ 'color':'green','shape':'square','label':'cars\' locations in partkinglot'},
+             LocationDetectionFunction2:{ 'color':'green','shape':'square','label':'family members\' locations'},
+
+
+
+
+             //Connection with other agencies
+             RaemianApp:{'color':'grey','shape':'square','label':'reamian application'},
+             ThirdPartyWeatherDataProvider:{'color':'grey','shape':'square','label':'third party weather data provider'},
+
+           },
+           edges:{
+             //Wall mounted screen
+             WallMaountedScreen:{ ConnectionsWithOtherSystems:{}, WallMountedScreenBuiltinFunctions:{}},
+             //systems outside the unit
+             SystemsOutsideTheUnit:{ PlayGround:{}, FrontDoor:{}, EntranceInParkingLot:{}, EntranceOnTheFirstFloor:{}, AptPackageLocker:{}, Elevator:{}, Intercom:{},AptManagementOffice:{} },
+             PlayGround:{ PlayGround1:{}, PlayGround2:{},PlayGround3:{} },
+             PlayGround1:{ SurveilanceCam:{} },
+             PlayGround2:{ SurveilanceCam:{} },
+             PlayGround3:{ SurveilanceCam:{} },
+             FrontDoor:{FrontDoorFunction:{} },
+             EntranceInParkingLot:{EntranceInParkingLotFunction:{}},
+             EntranceOnTheFirstFloor:{EntranceOnTheFirstFloorFunction:{}},
+             AptPackageLocker:{AptPackageLockerFunction:{}},
+             Elevator:{ElevatorFunction1:{},ElevatorFunction2:{} },
+             Intercom:{IntercomFuntion1:{},IntercomFuntion2:{}},
+             AptManagementOffice:{AptManagementOfficeFunction:{}},
+             //Systems inside the unit
+             SystemsInsideTheUnit:{HeaterAC:{}, Lighting:{}, Electricity:{}, Stove:{},LandlinePhone:{}, ElectricityOutlet:{}},
+             HeaterAC:{HeaterACFunction:{}},
+             Lighting:{LightingFunction:{}},
+             Electricity:{ElectricityFunction:{}},
+             Stove:{StoveFunction:{}},
+             LandlinePhone: {LandlinePhoneFunction:{}},
+             ElectricityOutlet:{ElectricityOutletFunction:{}},
+             //Wall mounted screen builtin functions
+             WallMountedScreenBuiltinFunctions:{VoiceMemo:{},PhotoAlbum:{}, WeatherCondition:{}, Calendar:{}, HomeSecurityVideo:{}, LocationDetection:{}},
+             HomeSecurityVideo:{HomeSecurityVideoFunction1:{}, HomeSecurityVideoFunction2:{}},
+             ConnectionsWithOtherSystems:{ SystemsOutsideTheUnit:{}, SystemsInsideTheUnit:{}},
+             LocationDetection:{LocationDetectionFunction1:{}, LocationDetectionFunction2:{}},
+
+             RaemianApp:{LocationDetectionFunction1:{}, LocationDetectionFunction2:{}},
+             ThirdPartyWeatherDataProvider:{WeatherCondition:{}}
+
+
+           }
+         };
+        sys.graft(data);
+
+  </script>
+
+    </body>
+</html>
